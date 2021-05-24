@@ -1,5 +1,3 @@
-import { act } from 'react-dom/test-utils'
-
 const reducer = (state, action) => {
   switch (action.type) {
     case 'COLOR':
