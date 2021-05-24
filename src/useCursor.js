@@ -7,7 +7,7 @@ const useCursor = ({ current, items }) => {
 
   useEffect(() => {
     document.body.style.cursor = `url('data:image/svg+xml;base64,${btoa(current ? cursor : auto)}'), auto`
-  }, [current])
+  }, [current, auto, cursor])
 }
 
 export default useCursor
